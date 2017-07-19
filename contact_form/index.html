@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Group of Four | Contact Form</title>
+		
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+
+		<!-- add the css and shit -->
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body class="nl-blurred">
+		<div class="container demo-1">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="#"><span>See a randome website for kicks</span></a>
+				<span class="right"><a class="0#"><span>Read our terms of service</span></a></span>
+			</div>
+			<header>
+				<h1>Hey There! <span>Please fill in the form and we'll get back to you in a jiffy or the beer is on us.</span></h1>	
+			</header>
+			<div class="main clearfix">
+				<form id="nl-form" class="nl-form">
+				My name is <input type="text" value="" placeholder="your name" data-subline="For example: <em>Mitchell</em> or <em>Stacy</em>"/>
+				and my email is <input type="email" value="" placeholder="your email" data-subline="For example: <em>me@mycompany.com</em> or <em>me@gmail.com</em>"/>
+
+					. I need  
+					<select>
+						<option value="1" selected>a Consultation</option>
+						<option value="2">a Website</option>
+						<option value="3">a Web Application</option>
+						<option value="4">a Mobile application</option>
+						<option value="2">Something else</option>
+					</select>
+					<br />by 
+					<select>
+						<option value="1" selected>Next week</option>
+						<option value="2">Next Month</option>
+						<option value="3">After a few weeks</option>
+						<option value="4">ASAP!</option>
+						<!-- <option value="2">romantic</option> -->
+					</select>
+					. I'm available
+					<br />at 
+					<select>
+						<option value="1" selected>anytime</option>
+					 	<option value="1">1 pm</option>
+					 	<option value="2">11 a.m.</option>
+					 	<option value="3">9 a.m.</option>
+					</select>
+					around <input type="text" value="" placeholder="Where you based" data-subline="For example: <em>Durban</em> or <em>Johannesburg</em>"/>
+					<div class="nl-submit-wrap">
+						<button class="nl-submit" type="submit">Send it!</button>
+					</div>
+					<div class="nl-overlay"></div>
+				</form>
+			</div>
+		</div><!-- /container -->
+		<script src="js/nlform.js"></script>
+		<script>
+			var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+		</script>
+	</body>
+</html>
